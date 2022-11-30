@@ -1,0 +1,63 @@
+/*
+
+-CSS Rule: Selector{Property: Value;}
+-Wildcard used to declare all elements
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+-If CSS rule applies to more than 1 selector, a comma can be used
+*/
+
+/* Header and Footer */
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+/* Headings */
+h1,
+h2 {
+    text-align: center;
+}
+
+/*Images*/
+img {
+    display: block; 
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Lists*/
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+ol {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+/*Paragraph*/
+p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /*Card designates a class selector*/
+  .card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid #808080;
+    box-shadow: 5px 10px #888888;
+  }
